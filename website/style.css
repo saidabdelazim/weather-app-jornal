@@ -1,0 +1,242 @@
+body{
+    background: #fffff8;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#app{
+    display: grid;
+    grid-auto-rows: minmax(150px, auto);
+     grid-template-columns:repeat(1,1fr); 
+    height:100vh;
+    background: #011525;
+    color: #070600;
+    justify-content: center;
+    grid-gap: 1em;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.headline{
+        color: white;
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-shadow: 2px 1px 9px wheat;
+    border-radius: 10px;
+    height: fit-content;
+}
+.zip{
+    background-color: #02213a6e;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 1px 8px wheat;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: -50px;
+    margin-bottom: 42px;
+    justify-content: center;
+    text-align: center;
+    color: wheat;
+    align-items: center;
+
+}
+#zip{
+    background: #ffffff;
+    border-radius: 40px;
+    border: 1px solid #0b84d3;
+    padding-left: 1em;
+    color: black;
+    box-shadow: 1px 3px 5px #0fddcb;
+}
+.feel{
+        display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -1em;
+    margin-bottom: 1em;
+    width: 100%;
+    box-shadow: 2px 2px 8px wheat;
+}
+.holder{
+
+}
+
+.entry{
+        background: rgb(59 74 107 / 37%);
+    background-color: #011525;
+    min-height: 300px;
+
+}
+
+#entryHolder{
+display: grid;
+    box-shadow: 2px 2px 8px wheat;
+    background-color: #e8f0fe0f;
+    border-radius: 8px;
+    justify-content: flex-start;
+
+}
+
+
+#date{
+    justify-content: space-evenly;
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+    color: rgb(250, 52, 52);
+    font-size: 17px;
+
+}
+
+#temp{
+    justify-content: space-evenly;
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+    color: rgb(250, 52, 52);
+    font-size: 17px;
+
+
+}
+
+#content{
+    justify-content: space-evenly;
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+    color: rgb(250, 52, 52);
+    font-size: 17px;
+
+
+}
+
+.headline {
+
+}
+.title{
+color: wheat;
+    text-align: center;
+
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label{
+        display: block;
+    font-size: 25px;
+    color: wheat;
+
+}
+
+input{
+    display:block;
+    width: 320px;
+    background:#22b2da;
+    color: #f0d43a;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+}
+
+/* button{
+    width: 400px;
+    height: 100px;
+    background: #3b4a6b;
+    color: #f0d43a;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    box-shadow: 2px 4px 5px #444;
+    
+} */
+h1{
+    font-size: 36px;
+}
+h3{
+        color: white;
+    font-size: 17px;
+    padding-left: 50px;
+    margin-right: 13em;
+
+}
+textarea{
+       background: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #0b84d3;
+    padding-left: 1em;
+    color: black;
+    box-shadow: 1px 3px 5px #0fddcb;
+    font-family: 'Oswald', sans-serif;
+
+}
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color: #777; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    color: #777; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+::-ms-input-placeholder { /* Microsoft Edge */ 
+    color: #777; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+
+
+button {
+  align-items: center;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgb(151 65 252 / 20%) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+button:active,
+button:hover {
+  outline: 0;
+}
+
+
+
+@media (min-width: 768px) {
+  .button-64 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
